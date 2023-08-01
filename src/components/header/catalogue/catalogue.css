@@ -46,6 +46,15 @@ h1 {
   color: rgb(95, 102, 29);
   padding: 15px 0;
 }
+.pic {
+width: 60%;
+height: 40%;
+border-radius: 20px;
+box-shadow: 8px 8px 8px yellow;
+margin: 15px 0;
+
+
+}
 .model {
   display: inline-block;
   font-size: 30px;
