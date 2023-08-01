@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./catalogue.css";
-import  image from './авто 1.jpg'
 import  './авто 2.jpg'
 import  './авто 3.jpg'
 
