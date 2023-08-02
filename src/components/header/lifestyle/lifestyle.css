@@ -22,14 +22,14 @@
 .part-1 img,
 .part-2 img
  {
-  width: 200%;
+ width: 50%;
 }
 .part-1 p,
 .part-2 p,
 .part-3 p {
-  font-size: 33px;
+  font-size: 20px;
   font-weight: 600;
 }
 .part-3 img {
-    width: 50%;
+   width: 50%;
 }
