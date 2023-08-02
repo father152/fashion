@@ -16,7 +16,7 @@ const Lifestyle = () => {
           shoppers see your products used in a model’s day to day life.
         </p>
       </div>
-      <h5>LIFESTYLE</h5>
+      <h5>LIFESPEED</h5>
       
       <div className="part-2">
       <p>
@@ -27,10 +27,22 @@ const Lifestyle = () => {
           as candid shots, this style of ecommerce photography helps online
           shoppers see your products used in a model’s day to day life.
         </p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQildSPqF7fsiWelX8CjF5KCnHoGngDBZinQw&usqp=CAU"></img>
+        <img src="https://www.thephotoargus.com/wp-content/uploads/2019/09/lifestyleportrait01.jpg"></img>
        
-        </div>
-      <div className="part-3"></div>
+        </div> 
+        <h5>LIFESPEED</h5>
+      <div className="part-3">
+      <img src="https://www.thephotoargus.com/wp-content/uploads/2018/11/lifestyle44.jpg"></img>
+       
+        <p>
+          Photos are one of the most important elements of your online store.
+          Half of online shoppers use images to decide what to buy online.
+          Lifestyle photography shows your products being used in an artistic
+          manner by your target market in their natural state. Also referred to
+          as candid shots, this style of ecommerce photography helps online
+          shoppers see your products used in a model’s day to day life.
+        </p>
+      </div>
     </div>
   );
 };
