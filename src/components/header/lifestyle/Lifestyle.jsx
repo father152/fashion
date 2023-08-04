@@ -1,12 +1,13 @@
 import "./lifestyle.css";
+import { Link } from "react-router-dom";
+
 
 const Lifestyle = () => {
   return (
     <div className="lifestyle">
-       <h5>LIFESTYLE</h5>
-    <div className="part-1">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQildSPqF7fsiWelX8CjF5KCnHoGngDBZinQw&usqp=CAU"></img>
-       
+      <h5>LIFESTYLE</h5>
+      <div className="part-1">
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK12xMwhGqSE1d1gEZ7xjuRBbevwrdvXj_yQ&usqp=CAU' alt="pic"></img>
         <p>
           Photos are one of the most important elements of your online store.
           Half of online shoppers use images to decide what to buy online.
@@ -17,9 +18,8 @@ const Lifestyle = () => {
         </p>
       </div>
       <h5>LIFESPEED</h5>
-      
       <div className="part-2">
-      <p>
+        <p>
           Photos are one of the most important elements of your online store.
           Half of online shoppers use images to decide what to buy online.
           Lifestyle photography shows your products being used in an artistic
@@ -28,12 +28,10 @@ const Lifestyle = () => {
           shoppers see your products used in a model’s day to day life.
         </p>
         <img src="https://www.thephotoargus.com/wp-content/uploads/2019/09/lifestyleportrait01.jpg"></img>
-       
-        </div> 
-        <h5>LIFESPEED</h5>
+      </div>
+      <h5>LIFESPEED</h5>
       <div className="part-3">
-      <img src="https://www.thephotoargus.com/wp-content/uploads/2018/11/lifestyle44.jpg"></img>
-       
+        <img src="https://www.thephotoargus.com/wp-content/uploads/2018/11/lifestyle44.jpg"></img>
         <p>
           Photos are one of the most important elements of your online store.
           Half of online shoppers use images to decide what to buy online.
@@ -43,6 +41,9 @@ const Lifestyle = () => {
           shoppers see your products used in a model’s day to day life.
         </p>
       </div>
+      <Link to="/" className="back">
+        Home
+      </Link>
     </div>
   );
 };
