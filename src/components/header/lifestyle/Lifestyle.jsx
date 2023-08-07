@@ -16,6 +16,7 @@ const Lifestyle = () => {
           as candid shots, this style of ecommerce photography helps online
           shoppers see your products used in a model’s day to day life.
         </p>
+       
       </div>
       <h5>LIFESPEED</h5>
       <div className="part-2">
