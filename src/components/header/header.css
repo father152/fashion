@@ -1,11 +1,12 @@
 .header {
-  padding: 46px 0 16px 0;
+  padding: 46px 0 40px 0;
 }
 .container {
   max-width: 1180px;
   margin: 0 auto;
   padding: 0 30px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(209, 179, 78);
+  border-radius: 20px;
 }
 .header__row {
   display: flex;

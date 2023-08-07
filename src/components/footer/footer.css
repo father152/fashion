@@ -11,3 +11,7 @@
 .footer p1 {
     font-size: 15px;
 }
+.footer img{
+    width: 120px;
+    cursor: pointer;
+}
