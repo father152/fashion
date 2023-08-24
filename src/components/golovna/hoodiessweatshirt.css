@@ -1,0 +1,41 @@
+h3 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  margin: 0 0 20px 0;
+  text-shadow: 10px 10px 10px black;
+}
+.productshs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px 20px;
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
+  line-height: 1.2em;
+  gap: 15px;
+}
+.cardhs {
+  text-align: center;
+  background-color: rgb(180, 162, 123);
+  padding: 15px 10px;
+}
+button.buyhs {
+  font-size: 15px;
+  background-color: rgb(83, 63, 25);
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+button.buyhs:hover {
+  transform: scale(1.1);
+}
+button.buyhs a {
+  text-decoration: none;
+  color: beige;
+}
+span.brandhs {
+  font-size: 40px;
+  padding: 20px 0 20px 0;
+}

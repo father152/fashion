@@ -14,6 +14,7 @@ import photo2 from './Rectangle 21.png'
 import photo3 from './Rectangle 22.png'
 import arrow from './arrow-right-svgrepo-com.svg'
 
+
 function Golovna() {
   return (
     <div className="golovna">
