@@ -31,22 +31,22 @@ function Golovna() {
         </div>
       </div>
       <div className="container-2">
-        <Link to="/h&m">
+        <Link to="https://www.hm.com/ua/" target="_blank">
           <img src={icon1} alt=""></img>
         </Link>
-        <Link to="/obey">
+        <Link to="https://obeyclothing.eu/" target="_blank">
           <img src={icon2} alt=""></img>
         </Link>
-        <Link to="/shopify">
+        <Link to="https://www.shopify.com/" target="_blank">
           <img src={icon3} alt=""></img>
         </Link>
-        <Link to="/lacoste">
+        <Link to="https://www.lacoste.ua/" target="_blank">
           <img src={icon4} alt=""></img>
         </Link>
-        <Link to="/levis">
+        <Link to="https://www.levi.com/" target="_blank">
           <img src={icon5} alt=""></img>
         </Link>
-        <Link to="/amazon">
+        <Link to="https://www.amazon.com/" target="_blank">
           <img src={icon6} alt=""></img>
         </Link>
       </div>

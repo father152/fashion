@@ -10,9 +10,6 @@ import { Signup } from "./components/header/signup/Signup.jsx";
 import { Hoodiessweatshirt } from "./components/golovna/Hoodiessweatshirt";
 import { Coatsparkas } from "./components/golovna/Coatsparkas";
 import { Teesshirt } from "./components/golovna/Teesshirt.jsx";
-import { Hm } from "./components/golovna/H&M/Hm.jsx";
-import { Obey } from "./components/golovna/Obey/Obey.jsx";
-import { Shopify } from "./components/golovna/Shopify/Shopify.jsx";
 
 function App() {
   return (
@@ -33,11 +30,7 @@ function App() {
           <Route path="teesshirt" element={<Teesshirt />} />
         </Route>
 
-        <Route path="/" element={<Layout />}>
-          <Route path="h&m" element={<Hm />} />
-          <Route path="obey" element={<Obey />} />
-          <Route path="shopify" element={<Shopify />} />
-        </Route>
+       
       </Routes>
     </>
   );
