@@ -19,12 +19,40 @@ h3 {
 }
 .cardhs {
   text-align: center;
-  background-color: rgb(180, 162, 123);
+  background-color: rgb(173, 142, 69);
   padding: 15px 10px;
+  text-shadow: 5px 5px 5px rgb(80, 74, 74);
+ box-shadow:  7px 7px 5px rgb(44, 44, 33);
 }
+.brandhs {
+ font-weight: bold;
+ 
+}
+.namehs {
+  color: rgb(24, 24, 29);
+} 
+.pichs {
+  border-radius: 10px;
+}
+.pichs:hover {
+  transform: scale(1.8);
+  transition: 1000ms;
+}
+.descriptionhs {
+  font-size: 15px;
+  text-shadow: none;
+  line-height: 0rem;
+  
+}
+.costhshs {
+  color: rgb(65, 24, 24);
+  font-weight: bold;
+  
+}
+
 button.buyhs {
   font-size: 15px;
-  background-color: rgb(83, 63, 25);
+  background-color: rgb(141, 107, 42);
   padding: 5px 20px;
   border-radius: 10px;
 }
