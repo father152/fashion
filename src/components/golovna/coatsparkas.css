@@ -1,0 +1,70 @@
+h3 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px 0;
+    text-shadow: 10px 10px 10px black;
+  }
+  .productscp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px 20px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2em;
+    gap: 15px;
+  }
+  .cardcp {
+    text-align: center;
+    background-color: rgb(173, 142, 69);
+    padding: 15px 10px;
+    text-shadow: 5px 5px 5px rgb(80, 74, 74);
+   box-shadow:  7px 7px 5px rgb(44, 44, 33);
+  }
+  .brandcp {
+   font-weight: bold;
+   
+  }
+  .namecp {
+    color: rgb(24, 24, 29);
+  } 
+  .piccp {
+    border-radius: 10px;
+  }
+  .piccp:hover {
+    transform: scale(1.8);
+    transition: 1000ms;
+  }
+  .descriptioncp {
+    font-size: 15px;
+    text-shadow: none;
+    line-height: 0rem;
+    
+  }
+  .costhscp {
+    color: rgb(65, 24, 24);
+    font-weight: bold;
+    
+  }
+  
+  button.buycp {
+    font-size: 15px;
+    background-color: rgb(141, 107, 42);
+    padding: 5px 20px;
+    border-radius: 10px;
+  }
+  button.buycp:hover {
+    transform: scale(1.1);
+  }
+  button.buycp a {
+    text-decoration: none;
+    color: beige;
+  }
+  span.brandcp {
+    font-size: 40px;
+    padding: 20px 0 20px 0;
+  }
+  
