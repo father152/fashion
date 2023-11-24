@@ -10,6 +10,7 @@ import { Signup } from "./components/header/signup/Signup.jsx";
 import { Hoodiessweatshirt } from "./components/golovna/Hoodiessweatshirt";
 import { Coatsparkas } from "./components/golovna/Coatsparkas";
 import { Teesshirt } from "./components/golovna/Teesshirt.jsx";
+import { Buyhs } from "./components/golovna/Buyhs.jsx";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="hoodiessweatshirt" element={<Hoodiessweatshirt />} />
           <Route path="coatsparkas" element={<Coatsparkas />} />
           <Route path="teesshirt" element={<Teesshirt />} />
+           <Route path="buyhs" element={<Buyhs />} />
         </Route>
 
        

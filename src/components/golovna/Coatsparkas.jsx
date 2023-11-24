@@ -126,7 +126,7 @@ fghjrthdh thdghdh "
     cost="77"
   />
   </div>
-    <Link to="/" className="back">Home</Link>
+    <Link to="/" className="backhs">Home</Link>
    </>
   )
 }
