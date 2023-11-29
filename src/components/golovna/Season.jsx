@@ -30,12 +30,11 @@ class Season extends React.Component {
               <option value="spring">Spring</option>
               <option value="summer">Summer</option>
               <option value="autumn">Autumn</option>
-              
+              <option value="apple">Apple</option>
             </select>
           </label>
           <input type="submit" value="Submit" />
         </form>
-       
       </div>
     );
   }

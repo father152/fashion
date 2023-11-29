@@ -1,4 +1,5 @@
 import React from "react";
+ 
 
 
 class Label extends React.Component {
@@ -13,8 +14,9 @@ class Label extends React.Component {
  handleChange(event) {
     this.setState({ value: event.target.value });
   }
+  
   handleSubmit(event) {
-    alert("Your favorite lable is: " + this.state.value);
+       alert("Your favorite lable is: " + this.state.value)
     event.preventDefault();
   }
 
@@ -34,8 +36,9 @@ class Label extends React.Component {
             </select>
           </label>
           <input type="submit" value="Submit" />
+      
         </form>
-       
+      
       </div>
     );
   }
