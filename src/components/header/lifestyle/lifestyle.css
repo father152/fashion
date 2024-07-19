@@ -1,6 +1,6 @@
 .lifestyle {
   width: 92%;
-
+padding-bottom: 50px;
   margin: 0 auto;
   background-color: rgb(243, 221, 126);
 }
@@ -59,4 +59,7 @@ transform: rotate(-10deg) translateX(-10px);
 .part-3 img:hover  {
 transform: scale(1.5)  translateX(100px);
 transition: 1000ms ease-in-out ;
+}
+.back {
+  margin-bottom: 50px;
 }
