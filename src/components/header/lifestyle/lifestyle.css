@@ -60,6 +60,4 @@ transform: rotate(-10deg) translateX(-10px);
 transform: scale(1.5)  translateX(100px);
 transition: 1000ms ease-in-out ;
 }
-.back {
-  margin-bottom: 50px;
-}
+

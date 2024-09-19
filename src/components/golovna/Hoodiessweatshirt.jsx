@@ -33,7 +33,7 @@ function CardHS(props) {
         <span className="costhshs">$ {props.cost}</span>
       </div>
       <button className="buyhs">
-        <Link to="/buyhs">BUY</Link>
+        <Link to="/buyhs">BUY NOW</Link>
       </button>
     </div>
   );
