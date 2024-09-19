@@ -1,6 +1,6 @@
 .lifestyle {
   width: 92%;
-padding-bottom: 50px;
+  padding-bottom: 50px;
   margin: 0 auto;
   background-color: rgb(243, 221, 126);
 }
@@ -9,11 +9,12 @@ padding-bottom: 50px;
   font-weight: 600;
   text-align: center;
   margin: 0;
-text-shadow: 20px 20px 10px rgb(26, 22, 2);
+  text-shadow: 20px 20px 10px rgb(26, 22, 2);
 }
 .part-1,
 .part-2,
-.part-3 {
+.part-3,
+.part-4 {
   display: flex;
   width: 90%;
   margin: 0 auto;
@@ -21,43 +22,54 @@ text-shadow: 20px 20px 10px rgb(26, 22, 2);
   gap: 30px;
 }
 .part-1 img {
-width: 400%;
-transform: rotate(-10deg) translateX(-10px);
+  width: 400%;
+  transform: rotate(-10deg) translateX(-10px);
   border-radius: 50px;
   box-shadow: 20px 20px 10px black;
   border: 10px solid rgb(250, 209, 98);
 }
-.part-1 img:hover  {
-  transform: scale(1.5)  translateX(100px);
-  transition: 1000ms ease-in-out ;
-  }
-.part-2 img{
+.part-1 img:hover {
+  transform: scale(1.5) translateX(100px);
+  transition: 1000ms ease-in-out;
+}
+.part-2 img {
   width: 60%;
   transform: rotate(10deg) translateX(50px);
   border-radius: 50px;
   box-shadow: 20px 20px 10px black;
   border: 10px solid rgb(250, 209, 98);
 }
-.part-2 img:hover  {
-  transform: scale(1.5)  translateX(-100px);
-  transition: 1000ms ease-in-out ;
-  }
+.part-2 img:hover {
+  transform: scale(1.5) translateX(-100px);
+  transition: 1000ms ease-in-out;
+}
 .part-1 p,
 .part-2 p,
-.part-3 p {
+.part-3 p,
+.part-4 {
   font-size: 20px;
   font-weight: 600;
 }
 .part-3 img {
-   width: 50%;
-   transform: rotate(-10deg) translateX(-10px);
-   border-radius: 50px;
-   box-shadow: 20px 20px 10px black;
-   border: 10px solid rgb(250, 209, 98);
-   cursor: pointer;
+  width: 50%;
+  transform: rotate(-10deg) translateX(-10px);
+  border-radius: 50px;
+  box-shadow: 20px 20px 10px black;
+  border: 10px solid rgb(250, 209, 98);
+  cursor: pointer;
 }
-.part-3 img:hover  {
-transform: scale(1.5)  translateX(100px);
-transition: 1000ms ease-in-out ;
+.part-3 img:hover {
+  transform: scale(1.5) translateX(100px);
+  transition: 1000ms ease-in-out;
 }
-
+.part-4 img {
+  width: 400%;
+  transform: rotate(-10deg) translateX(-10px);
+  border-radius: 50px;
+  box-shadow: 20px 20px 10px black;
+  border: 10px solid rgb(250, 209, 98);
+}
+.part-4 img:hover {
+  transform: scale(1.5) translateX(-100px);
+  transition: 1000ms ease-in-out;
+}
