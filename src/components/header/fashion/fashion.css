@@ -1,0 +1,36 @@
+.fashion {
+  justify-content: space-between;
+  width: 98%;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 50px;
+  font-weight: 700;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(104, 84, 18);
+  font-size: 40px;
+  font-weight: 700;
+}
+.container-fashion {
+  display: flex;
+  margin: 0 auto;
+}
+/* +++++++++++++++++++++++++++++++++++++ 1 +++++++++++++++++++++++++++ */
+.news1 {
+  background-color: rgb(145, 138, 76);
+  width: 20%;
+  text-align: center;
+}
+/* +++++++++++++++++++++++++++++++++++++ 2 +++++++++++++++++++++++++++ */
+.news2 {
+  background-color: rgb(211, 197, 121);
+  width: 60%;
+  text-align: center;
+}
+/* +++++++++++++++++++++++++++++++++++++ 3 +++++++++++++++++++++++++++ */
+.news3 {
+  background-color: rgb(145, 138, 76);
+  width: 20%;
+  text-align: center;
+}
