@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import "./catalogue.css";
 import "./авто 2.jpg";
 import "./авто 3.jpg";
+import home from "../lifestyle/free-icon-font-home-3917032.png"
+
+
 
 function Card(props) {
   return (
@@ -48,7 +51,7 @@ const Catalogue = () => {
           cost="77"
         />
         <Card
-          brand="Ford"
+          brand="Audi"
           name="Auto"
           image={
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtbgj0V4Z3lw5DmTmh60MSVo3jIExi2rSl5g&usqp=CAU"
@@ -131,7 +134,8 @@ const Catalogue = () => {
       </div>
 
       <Link to="/" className="back">
-        Home
+      <img src={home} alt=""></img>
+      
       </Link>
     </div>
   );
