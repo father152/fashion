@@ -1,0 +1,21 @@
+.news {
+  line-height: 10px;
+  padding: 0 10px 0 10px;
+  margin-top: 30px;
+}
+.title {
+  font-size: 30px;
+  text-align: center;
+}
+.name {
+  font-size: 25px;
+  padding-top: 30px;
+  color: yellow;
+}
+.textnews {
+  font-size: 13px;
+
+  font-weight: 100;
+  text-align: justify;
+  line-height: 1px;
+}
