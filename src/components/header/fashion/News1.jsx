@@ -12,7 +12,7 @@ function News(props) {
       </div>
       <img className="pic" src={props.image} alt={props.names} />
       <div>
-        <span className="textnews">{props.textnews}</span>
+        <span className="description">{props.description}</span>
       </div>
     </div>
   );
@@ -27,20 +27,16 @@ const News1 = () => {
         image={
           "https://images.unsplash.com/photo-1648183185045-7a5592e66e9c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBob3RvfGVufDB8fDB8fHww"
         }
-        textnews="Якщо ви не можете знайти нову функцію або хочете поділитися своєю думкою про функції Google Фото, надішліть нам відгук. На жаль, ми не можемо відповісти на кожен відгук. Якщо у вас серйозніша проблема або ви хочете повідомити про порушення, дізнайтеся, як поскаржитися
-      на контент і заблокувати користувача Якщо ви не можете знайти нову функцію або хочете поділитися своєю думкою про функції Google Фото, надішліть нам відгук. На жаль, ми не можемо відповісти на кожен відгук. Якщо у вас серйозніша проблема або ви хочете повідомити про порушення, дізнайтеся, як поскаржитися
-      на контент і заблокувати користувача"
+        description="Step into a new era of analytics with the Alteryx AI Platform. Empower your organization with automated data preparation, AI-powered analytics, and approachable machine learning — all with embedded governance and security. Welcome to the future of data-driven decisions for every user, every team, every step of the way."
       />
       <News
-      title="Old News"
-      name="Now weather"
-      image={
-        "https://images.unsplash.com/photo-1648183185045-7a5592e66e9c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBob3RvfGVufDB8fDB8fHww"
-      }
-      textnews="Якщо ви не можете знайти нову функцію або хочете поділитися своєю думкою про функції Google Фото, надішліть нам відгук. На жаль, ми не можемо відповісти на кожен відгук. Якщо у вас серйозніша проблема або ви хочете повідомити про порушення, дізнайтеся, як поскаржитися
-    на контент і заблокувати користувача Якщо ви не можете знайти нову функцію або хочете поділитися своєю думкою про функції Google Фото, надішліть нам відгук. На жаль, ми не можемо відповісти на кожен відгук. Якщо у вас серйозніша проблема або ви хочете повідомити про порушення, дізнайтеся, як поскаржитися
-    на контент і заблокувати користувача"
-    />
+        title="Old News"
+        name="Now weather"
+        image={
+          "https://images.unsplash.com/photo-1648183185045-7a5592e66e9c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBob3RvfGVufDB8fDB8fHww"
+        }
+        description="Step into a new era of analytics with the Alteryx AI Platform. Empower your organization with automated data preparation, AI-powered analytics, and approachable machine learning — all with embedded governance and security. Welcome to the future of data-driven decisions for every user, every team, every step of the way."
+      />
     </div>
   );
 };

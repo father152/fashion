@@ -1,6 +1,6 @@
 import "./fashion.css"
-import {News1} from "./News1.jsx"
 import {News3} from "./News3.jsx"
+import {News1} from "./News1.jsx"
 
 const Fashion = () => {
     return (
@@ -10,7 +10,7 @@ const Fashion = () => {
         </div>
 <div className='container-fashion'>
         <div className='news1'>
-        <News1/>
+        <News1 />
         </div>
         <div className='news2'>
         <p>News 2</p>

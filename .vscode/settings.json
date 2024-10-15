@@ -1,4 +1,7 @@
 {
     "editor.defaultColorDecorators": false,
-    "editor.dropIntoEditor.enabled": true
+    "editor.dropIntoEditor.enabled": true,
+    "cSpell.words": [
+        "Alteryx"
+    ]
 }
