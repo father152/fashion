@@ -25,6 +25,7 @@ const Fashion = () => {
 </div>
         
         </div>
+                 
     )
 }
 export  {Fashion}
